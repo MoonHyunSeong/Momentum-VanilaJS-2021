@@ -1,3 +1,46 @@
 .hidden {
   display: none;
 }
+
+body {
+  color: white;
+}
+
+.top_bar {
+  position: fixed;
+  top: 0;
+  width: 99%;
+  height: 15%;
+  display: block;
+  text-align: right;
+  padding: 5px 3px;
+
+  margin-bottom: 20px;
+}
+.center {
+  display: block;
+  width: auto;
+  height: 70%;
+  text-align: center;
+  margin-top: 80px;
+}
+
+input {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+img {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  max-width: 100%;
+  min-height: 100%;
+}
+
+#clock {
+  font-size: 100px;
+}
